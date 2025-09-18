@@ -1,0 +1,123 @@
+*{
+ padding:0px;
+ margin:0px;
+ box-sizing: border-box;
+ max-width: 100%;
+}
+.nvbar{
+    background-color:rgb(4, 56, 111) ;
+    width:450px;
+    height:1050px;
+    
+  
+}
+.nvbar i{
+    padding-left:100px;
+    padding-top:60px;
+    size:30px;
+}
+.nvbar h4{
+    color: white;
+    font-size:25px;
+    padding-left:85px;
+    padding-top:15px;
+    
+}
+.nvbar ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.nvbar ul {
+       padding-left:80px;
+       padding-top:20px;
+       list-style: none;
+       
+}
+.nvbar li{
+    padding-top:20px;
+    
+}
+.nvbar a:hover{
+    color:yellow;
+    cursor: pointer;
+}
+.main{
+    display:flex;
+}
+.pic img{ 
+    
+ width:1350px;
+ height:350px;
+}
+
+h2{
+    color:rgb(4, 56, 111);
+    padding-left:20px;
+    padding-top:30px;
+}
+p{
+    color:black;
+    padding-top:15px;
+    padding-left:20px;
+    font-size:15px;
+}
+
+.about img{
+    width:250px;
+    height:300px;
+    padding-left:20px;
+    padding-top:30px;
+
+}
+.about h3{
+    color:rgb(4, 56, 111);
+    padding-left:20px;
+    padding-top:30px;
+
+}
+.about{
+    display:flex;
+    
+}
+.about p{
+    color:black;
+    padding-top:30px;
+}
+.text button{
+    background-color:rgb(4, 56, 111);
+    margin-left:20px;
+    margin-top:30px;
+    padding-left: 30px;
+      padding-right: 30px;
+      padding-top:10px;
+      padding-bottom:10px;
+      box-shadow:none;
+}
+.text a{
+      text-decoration: none;
+      color: white;
+}
+
+.gallery h3{
+    color:rgb(4, 56, 111);
+    padding-top:30px;
+    padding-left:20px;
+}
+
+.images{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 15px;
+  padding-top:20px;
+  padding-left:20px;
+}
+
+.images img {
+  width: 100%;
+  height: 200px;       
+  object-fit: cover;   
+  
+
+}
