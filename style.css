@@ -108,13 +108,13 @@ p{
 
 .images{
   display: grid;
-  /* grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); */
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 10px;
   padding-top:20px;
   padding-left:20px;
   grid-auto-flow: column;
    overflow-x: auto;  
-   grid-template-columns: 200px;
+   /* grid-template-columns: 200px; */
 }
 
 .gallery .images img {
