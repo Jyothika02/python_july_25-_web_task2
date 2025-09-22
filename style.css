@@ -121,3 +121,90 @@ p{
   
 
 }
+
+
+
+/* -------- Responsive Design -------- */
+
+/* Medium screens (tablets, small laptops) */
+@media (max-width: 1024px) {
+  .nvbar {
+    width: 300px;
+    height: auto;
+  }
+  .pic img {
+    width: 100%;
+    height: auto;
+  }
+  .about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about img {
+    width: 200px;
+    height: auto;
+    padding: 0;
+  }
+  .about .text {
+    padding: 10px;
+  }
+}
+
+/* Small screens (mobile landscape & tablets) */
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+  .nvbar {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .nvbar i {
+    padding: 20px 0 10px 0;
+  }
+  .nvbar h4 {
+    padding: 10px 0;
+  }
+  .nvbar ul {
+    padding: 0;
+  }
+  .nvbar li {
+    display: inline-block;
+    margin: 10px;
+    padding: 0;
+  }
+  .pic img {
+    width: 100%;
+    height: auto;
+  }
+  .gallery .images {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+  }
+}
+
+/* Extra small screens (mobile portrait) */
+@media (max-width: 480px) {
+  h2 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  p {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .about img {
+    width: 150px;
+    height: auto;
+  }
+  .text button {
+    margin: 15px auto;
+    display: block;
+  }
+  .gallery .images {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+}
